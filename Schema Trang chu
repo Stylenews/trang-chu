@@ -1,0 +1,78 @@
+<!--  Khai báo tổ chức  -->
+<script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Style News",
+  "url": "http://stylenews.vn",
+  "logo": "http://stylenews.vn/images/logo-stylenews.png",
+   "foundingDate": "2017",
+  "sameAs": [
+    "https://www.facebook.com", <!--  Khai báo Profile MXH  -->
+    "https://twitter.com", <!--  Khai báo Profile MXH  -->
+    "https://plus.google.com", <!--  Khai báo Profile MXH  -->
+    "https://www.instagram.com", <!--  Khai báo Profile MXH  -->
+    "https://www.youtube.com", <!--  Khai báo Profile MXH  -->
+    "https://www.linkedin.com/company/stylenews", <!--  Khai báo Profile MXH  -->
+    "https://www.pinterest.com" <!--  Khai báo Profile MXH  -->
+  ],
+  
+  "founders": [
+ {
+ "@type": "Person",
+ "name": "Lê Đình Trọng",
+"jobTitle": "CEO"
+ }
+  ],
+  "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Tầng 10, tòa nhà Việt Á số 9 Duy Tân, Cầu Giấy",
+        "addressLocality": "Hà Nội",
+        "addressRegion": "HN",
+        "postalCode": "123000",
+        "addressCountry": "VN"
+ }
+}</script>
+
+<!--  Cấu trúc WebSite  -->
+<script type="application/ld+json">{
+"@context": "http://schema.org/",
+"@type": "WebSite",
+"name": "Style News",
+"alternateName": "Stylenews báo Phụ Nữ Online, tin tức 24h, gia đình, làm đẹp, xu hướng thời trang, chia sẻ tâm sự cuộc sống tình yêu, hôn nhân gia đình, nuôi dạy con.", // Description
+"url": "http://stylenews.vn",
+"potentialAction": {
+"@type": "SearchAction",
+"target": "http://stylenews.vn/search?s{search_term_string}Stylenews",
+"query-input": "required name=search_term_string"
+}
+}
+</script>
+
+<!--  Người sáng lập  -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Lê Đình Trọng",
+  "alternateName": "TGĐ Công ty Truyền hình cáp STV, Stylenews, Style TV",
+  "url": "http://stylenews.vn",
+  "image": "http://stylenews.vn/tranbinhtrong.png",
+  "sameAs": [
+    "Facebook.com", <!--  Khai báo Profile MXH  -->
+    "Twitter.com", <!--  Khai báo Profile MXH  -->
+    "Google+", <!--  Khai báo Profile MXH  -->
+    "https://www.instagram.com", <!--  Khai báo Profile MXH  -->
+    "https://vn.linkedin.com", <!--  Khai báo Profile MXH  -->
+    "Tumblr", <!--  Khai báo Profile MXH  -->
+    "Pinterest", <!--  Khai báo Profile MXH  -->
+    "SoundCloud", <!--  Khai báo Profile MXH  -->
+    "https://doanhnhansaigon.vn/tro-chuyen-voi-doanh-nhan/tgd-cong-ty-truyen-hinh-cap-stv-noi-dung-la-so-1-1063774.html", <!--  Khai báo báo chí  -->
+    "http://cafebiz.vn/nhan-vat/tgd-cong-ty-truyen-hinh-cap-stv-noi-dung-la-so-1-20150716084652298.chn" <!--  Khai báo báo chí  -->
+  ],
+  "jobTitle": "CEO",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Công ty cổ phần truyền hình cáp STV"
+  }  
+}
+</script>
